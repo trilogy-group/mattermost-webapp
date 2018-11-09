@@ -2,7 +2,8 @@
  Dockefile is created on top of `node:10` image (debian).
  # Requirements
  - The project should be cloned from https://github.com/trilogy-group/mattermost-webapp
- - mattermost-server should be running (you can use the https://github.com/trilogy-group/mattermost-server) version
+ - mattermost-server should be running (you can use the https://github.com/trilogy-group/mattermost-server -> master)
+ - mattermost-server and mattermost-webapp should be siblings, start mattermost-server following the docker/README.md
  - Docker version 18.06.0-ce
  - Docker compose version 1.22.0
   
