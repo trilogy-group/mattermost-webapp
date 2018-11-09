@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mattermost-webapp:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: mattermost-webapp
+    volumes:
+      - ..:/data:Z
+    tty: true
