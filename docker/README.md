@@ -4,6 +4,7 @@
  - The project should be cloned from https://github.com/trilogy-group/mattermost-webapp
  - mattermost-server should be running (you can use the https://github.com/trilogy-group/mattermost-server -> master)
  - mattermost-server and mattermost-webapp should be siblings, start mattermost-server following the docker/README.md
+ - You can run the client through mattermost-server Makefile (`make run`) or just adding the symlink `ln -nfs ../mattermost-webapp/dist client`
  - Docker version 18.06.0-ce
  - Docker compose version 1.22.0
   
